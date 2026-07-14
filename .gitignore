@@ -33,5 +33,5 @@ share/
 # Model checkpoints & large binary weights (optional, but standard practice)
 *.hdf5
 *.h5
-*.pb
+#*.pb
 
