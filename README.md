@@ -117,6 +117,20 @@ This project addresses these challenges by developing a pipeline that isolates k
 
 ---
 
+## Pre-Trained Models & Weights
+
+Due to size constraints, the trained model weights (`.hdf5` and `.h5` files) are not tracked in the Git repository. Instead, they are available in the **GitHub Releases** section of this repository. 
+
+To use the models without retraining:
+1. Navigate to the **Releases** page on GitHub.
+2. Download the `.hdf5` weight files.
+3. Place them in their respective local directories:
+   * **MultiSeg Models** (Lesion segmentation): Place `AttNetM.hdf5` and `BUNETFOCALNOWEIGHTS.hdf5` into `Segmentation/MultiSeg/`
+   * **RSEG Models** (Blood Vessel segmentation): Place `AttResUNET.hdf5`, `AttResUNET2.hdf5`, and `retina_AttentionRESUnet_150epochs.hdf5` into `Segmentation/RSEG/`
+4. Downstream grading networks will automatically locate and load these pre-trained weights for evaluation.
+
+---
+
 ## Workflow Guide
 
 ### 1. Data Preprocessing & Segmentation
