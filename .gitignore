@@ -1,0 +1,37 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints
+*/.ipynb_checkpoints/*
+
+# Local IDE folders
+.vscode/
+.idea/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+.env
+bin/
+include/
+lib/
+share/
+
+# Model checkpoints & large binary weights (optional, but standard practice)
+*.hdf5
+*.h5
+*.pb
+

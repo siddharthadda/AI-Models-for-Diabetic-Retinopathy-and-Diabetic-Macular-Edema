@@ -1,0 +1,2 @@
+epoch,accuracy,categorical_accuracy,loss,lr,top_k_categorical_accuracy,val_accuracy,val_categorical_accuracy,val_loss,val_top_k_categorical_accuracy
+0,0.5958999395370483,0.5958999395370483,0.827997088432312,1e-04,0.8999305367469788,0.5767813324928284,0.5767813324928284,0.8649807572364807,0.8734643459320068
